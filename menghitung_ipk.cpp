@@ -101,7 +101,7 @@ using namespace std;
 		cout<<"+----------------------------------------+----------+"<<endl<<endl<<endl;
 		cout<<"--------------------TUGAS ALGOPRO--------------------"<<endl<<endl;
 		cout<<"--------------- Nama : Aditya Permana ----------------"<<endl<<endl;
-		cout<<"--------------- NIM  : 16/111.156     ----------------"<<endl<<endl;
+		cout<<"--------------- NIM  : 16.111.156     ----------------"<<endl<<endl;
 		cout<<"--------------- Kelas: TIF Rm-16 C     ----------------"<<endl<<endl;
 		
 		
