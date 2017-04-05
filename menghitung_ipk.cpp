@@ -28,7 +28,7 @@ using namespace std;
 	//proses membaca ipk yg di input
 
 	void probaca () 
-	{
+	{ 
 		cout<<"\n______Program Perhitungan Data IPK Mahasiswa______";
 		cout<<"\n____Inputkan Data IPK dengan range 0.0 s/d 4.0____";
 		cout<<"\n_____Min data yang di inputkan adalah 2 nilai_____"<<endl;
