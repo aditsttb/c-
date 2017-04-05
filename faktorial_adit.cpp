@@ -40,10 +40,10 @@ int faktor(int n)
 	{
 		if(i!=1)
 			cout<<i<<"*";
-		else { 
+		else 
 			cout<<"1";
 			hasil=hasil*i;
-			}
+			
 				
 	}
 	return hasil;
