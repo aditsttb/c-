@@ -127,7 +127,7 @@ int main (){
 	cout << "Tanggal Berangkat	: " << tiket.tanggalBerangkat.hari <<", "<< tiket.tanggalBerangkat.tgl <<" "<<  tiket.tanggalBerangkat.bulan <<" "<<  tiket.tanggalBerangkat.tahun  << endl;
     cout << "waktu			: " << tiket.waktuBerangkat.jam <<" : "<<  tiket.waktuBerangkat.menit <<" : "<<  tiket.waktuBerangkat.detik<<" " <<tiket.waktuBerangkat.zona << endl;	
 	cout<<"+-----------------------------------------------+"<<endl;
-	cout << "Tanggal Berangkat	: " << tiket.tanggalTiba.hari <<", "<< tiket.tanggalTiba.tgl <<" "<<  tiket.tanggalTiba.bulan <<" "<<  tiket.tanggalTiba.tahun  << endl;
+	cout << "Tanggal Tiba	: " << tiket.tanggalTiba.hari <<", "<< tiket.tanggalTiba.tgl <<" "<<  tiket.tanggalTiba.bulan <<" "<<  tiket.tanggalTiba.tahun  << endl;
     cout << "waktu			: " << tiket.waktuTiba.jam <<" : "<<  tiket.waktuTiba.menit <<" : "<<  tiket.waktuTiba.detik <<" "<<tiket.waktuTiba.zona<< endl;
 	cout<<"+-----------------------------------------------+"<<endl;
 	 return 0; 
