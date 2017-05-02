@@ -33,7 +33,7 @@ int main(){
 	system ("CLS");	//Membersihkan Layar Setelah Elemen-Elemen Matriks Di Input
 	int Mtotal = kolom * baris;
 	int Jindex = Mtotal - 1 ;
-	cout<<">>>>>>>>>...... Maka Matrik "<<kolom<<" x "<<baris<<" ......<<<<<<<<<<"<<endl<<endl;
+	cout<<">>>>>>>>>...... Maka Matrik "<<baris<<" x "<<kolom<<" ......<<<<<<<<<<"<<endl<<endl;
 	cout<<"Mempunyai Jumlah Data  = "<<Mtotal<<endl<<endl;
 	cout<<"Mempunyai Jumlah Index = "<<Jindex<<endl<<endl;
 	cout<<">>>>>>>>> Dengan Output Sebagai Berikut : <<<<<<<<< "<<endl<<endl;
