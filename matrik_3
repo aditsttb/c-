@@ -1,0 +1,63 @@
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+//Nama 		: Aditya permana
+//Kelas 	: TIF Rm - 16 C
+//NIM		: 16.111.156
+
+int main(){
+	
+	int baris,kolom;// proses penginputan baris dan kolom
+	cout<<" [********| Program Membuat Matriks  |********]"<<endl;
+	cout<<" [********| Inputkan Baris & Kolom : |********] "<<endl;
+	cout<<"Masukan Baris : "; cin>>baris;
+	cout<<"Masukan Kolom : "; cin>>kolom;
+	
+	int M[baris][kolom]; 
+	system ("CLS");	//membersihkan layar setelah baris dan kolom di input
+	
+	cout <<"Silahkan Inputkan Elemen-Elemen Matriks-Nya : "<<endl<<endl;// proses penginputan Elemen-Elemen Matriks
+	
+	for (int i =0; i<baris; i++) 
+	{
+		for (int j =0; j<kolom; j++)
+	
+		
+		{
+			cout<<"Input Elemen Matrix Baris_ke ["<<j<<"] Kolom_ke  ["<<i<<"] :   ";
+			cin>>M[i][j];
+		}
+	}
+	
+	system ("CLS");	//Membersihkan Layar Setelah Elemen-Elemen Matriks Di Input
+	int Mtotal = kolom * baris;
+	int Jindex = Mtotal - 1 ;
+	cout<<">>>>>>>>>...... Maka Matrik "<<kolom<<" x "<<baris<<" ......<<<<<<<<<<"<<endl<<endl;
+	cout<<"Mempunyai Jumlah Data  = "<<Mtotal<<endl<<endl;
+	cout<<"Mempunyai Jumlah Index = "<<Jindex<<endl<<endl;
+	cout<<">>>>>>>>> Dengan Output Sebagai Berikut : <<<<<<<<< "<<endl<<endl;
+	
+	for (int j =0; j<kolom; j++)
+	{
+	cout<<"|||||";
+	}
+	cout<<"\n";
+
+	for (int i =0; i<baris; i++)
+	{
+		for (int j =0; j<kolom; j++)
+		{
+			cout<<"[ "<<M[i][j]<<" ]";
+		}
+		cout<<"\n";
+
+		for (int j =0; j<kolom; j++)
+		{
+			cout<<"|||||";
+		}
+		cout<<"\n";
+	}
+
+	return 0;
+}
